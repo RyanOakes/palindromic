@@ -2,8 +2,7 @@ import re
 
 def is_palindrome(user_input):
 
-    #I tried using a function for this but I couldn't get it to work, might
-    #ask you about it tomorrow.
+
     pattern = '[^A-Za-z]'
     cleansed_user_input = re.sub(pattern, '', user_input)
     cleansed_user_input = cleansed_user_input.lower()
